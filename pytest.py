@@ -19,3 +19,5 @@ while True:
 		else :
 			os.makedirs(path+'/'+ext)
 			shutil.move(path+'/'+file_ , path+'/'+ext+'/'+file_)
+
+#end
